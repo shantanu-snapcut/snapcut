@@ -1,1 +1,1 @@
-** Run the test.html file with any browser. **
+# Run the test.html file with any browser. 
