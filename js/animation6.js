@@ -9,7 +9,7 @@ window.onload = function() {
     var rect = new paper.Path.Rectangle(0, 0, paper.view.bounds.width, paper.view.bounds.height);
     rect.fillColor = {
         gradient: {
-            stops: ['#42287C', '#714091']
+            stops: ['#FEE733', '#FFFFFF']
         },
         origin: paper.view.bounds.topLeft,
         destination: paper.view.bounds.bottomLeft
@@ -24,10 +24,10 @@ window.onload = function() {
 
     var orgSeg = [[],[],[],[]];
 
-    var pathOptions = [{color: '#2D1E56',opacity: 0.35,angle: 0, position: 'TL',x: -250,y: -220,scale: 1},
-                   {color: '#2D1E56',opacity: 0.18,angle: 0, position: 'TL',x: -50,y: -50,scale: 1},
-                   {color: '#2D1E56',opacity: 0.18,angle: 0, position: 'BL',x: 100,y: 130,scale: 1},
-                   {color: '#2D1E56',opacity: 0.18,angle: 0, position: 'BR',x: 150,y: 160,scale: 1}];
+    var pathOptions = [{color: '#FEE733',opacity: 1,angle: 0, position: 'TL',x: -250,y: -220,scale: 1},
+                   {color: '#FFFFFF',opacity: 1,angle: 0, position: 'TL',x: -50,y: -50,scale: 1},
+                   {color: '#FFFFFF',opacity: 1,angle: 0, position: 'BL',x: 100,y: 130,scale: 1},
+                   {color: '#FFFFFF',opacity: 1,angle: 0, position: 'BR',x: 150,y: 160,scale: 1}];
 
     var moveSize = 10;
     var moveSpeed = 300;

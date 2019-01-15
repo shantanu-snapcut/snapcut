@@ -15,7 +15,7 @@
     1 - General Styles
 ------------------------------------*/
 .form-body {
-    background-color: #42287C;
+    background-color: #ffffff;
 }
 
 .form-body.gradient-bg {
@@ -38,7 +38,7 @@
 }
 
 .website-logo .logo {
-    background-image: url("../images/logo-light.svg");
+    background-image: url("../images/logo-dark.svg");
 }
 
 .website-logo .logo img {
@@ -62,17 +62,17 @@
 }
 
 .website-logo-inside .logo {
-    background-image: url("../images/logo-light.svg");
+    background-image: url("../images/logo-dark.svg");
 }
 
 .website-logo-inside .logo img {
-    width: 100px;
+    width: 130px;
 }
 
 .img-holder {
     display: inline-block;
     width: 0;
-    background-color: #42287C;
+    background-color: #fee;
 }
 
 .img-holder:before {
@@ -152,19 +152,21 @@
 .form-content .form-items {
     max-width: 380px;
     text-align: left;
+    margin-top: -60px;
 }
 
 .form-content h3 {
-    color: #24D0C3;
+    color: #000000;
     text-align: left;
+    margin-top: -60px;
 }
 
 .form-content h5 {
-    color: #24D0C3;
+    color: #000000;
 }
 
 .form-content p {
-    color: #fff;
+    color: #707070;
     text-align: left;
 }
 
@@ -190,7 +192,7 @@
 }
 
 .form-content input, .form-content .dropdown-toggle.btn-default {
-    border: 0;
+    border: 0.5px solid #E5E5E5;
     background-color: #f7f7f7;
     -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
@@ -198,8 +200,8 @@
 }
 
 .form-content input:hover, .form-content input:focus, .form-content .dropdown-toggle.btn-default:hover, .form-content .dropdown-toggle.btn-default:focus {
-    border: 0;
-    background-color: #f1f1f1;
+    border: 0.5px solid #E5E5E5;
+    background-color: #FFFFFF;
     color: #000000;
     -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
@@ -260,16 +262,18 @@
 }
 
 .form-content .form-button .ibtn {
-    background-color: #00A99D;
+    background-color: #FEE733;
     color: #fff;
     -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.16);
     box-shadow: 0 0 0 rgba(0, 0, 0, 0.16);
+    margin-bottom: 40px;
 }
 
 .form-content .form-button .ibtn:hover, .form-content .form-button .ibtn:focus {
-    -webkit-box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
-    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
-    background-color: #009085;
+    -webkit-box-shadow: 0 3px 6px rgba(60, 60, 60, 0.16);
+    box-shadow: 0 3px 6px rgba(60, 60, 60, 0.16);
+    background-color: #FEE733;
+    color: #000;
 }
 
 .form-content .form-button a {
@@ -327,11 +331,12 @@
 }
 
 .form-content .time-counter .count .num {
-    color: #fff;
+    color: #707070;
+    font-weight: 400;
 }
 
 .form-content .time-counter .count .label {
-    color: #fff;
+    color: #707070;
 }
 
 @keyframes tick-anime3 {
@@ -521,10 +526,10 @@
     }
 
     .website-logo .logo {
-        background-image: url("../images/logo-light.svg");
+        background-image: url("../images/logo-dark.svg");
     }
 
     .form-body.without-side .website-logo .logo {
-        background-image: url("../images/logo-light.svg");
+        background-image: url("../images/logo-dark.svg");
     }
 }
